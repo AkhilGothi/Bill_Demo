@@ -1,0 +1,21 @@
+.constth{
+    padding-left: 100px ;
+}
+
+.record{
+    padding: 5px;
+}
+
+.record span{
+    padding: 5px;
+}
+
+.action{
+    text-transform: capitalize;
+    text-decoration: underline;
+    color: blue;
+
+}
+.action:hover{
+    cursor: pointer;    
+}
