@@ -96,7 +96,7 @@ td, th {
           </tr>
         </thead>
         <tbody>
-          {dataFromStorage.map((data, i) => (
+          {dataFromStorage?.map((data, i) => (
             <tr key={i}>
               <td>{data.number}</td>
               <td>{data.name}</td>
@@ -104,9 +104,7 @@ td, th {
               <td>{data.tgst}</td>
               <td>{data?.itemLists?.length}</td>
               <td>{data.tsubTotal}</td>
-              <td>{Math.round(data.tpayAmount? data.tpayAmount : data.ttotal)}</td>
-           
-              
+              <td>{Math.round(data.tpayAmount? data.tpayAmount : data.ttotal)}</td> 
               <Button
                 className="btn btn-danger m-2"
                 onClick={() => {
