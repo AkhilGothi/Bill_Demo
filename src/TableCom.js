@@ -45,7 +45,7 @@ const TableCom = () => {
             </thead>
             {console.log(items)}
             <tbody>
-                {items.map((ele, id) => {
+                {items?.map((ele, id) => {
                     // const {quantity,price,gst} = elem;
                     return (
                         <>

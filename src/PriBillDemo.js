@@ -169,7 +169,7 @@ td, th {
           </tr>
         </thead>
         <tbody>
-          {dataFromStorage.map((data, i) => (
+          {dataFromStorage?.map((data, i) => (
             <tr key={i}>
               <td>{data.number}</td>
               <td>{data.name}</td>

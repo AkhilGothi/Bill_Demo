@@ -7,7 +7,6 @@ import PreBill from "./PreBill";
 import DataContext from "./DataContext";
 // import Look from "./Look";
 // import PreBillDemo from "./PriBillDemo";
-
 const Route1 = () => {
   const value = useContext(DataContext);
   console.log(value)

@@ -68,7 +68,7 @@ const Users = () => {
                 </div>
             </div>
             <div>
-                {list.map((ele, i) => (
+                {list?.map((ele, i) => (
                     <div className="record" key={i}>
                         <span>{ele.firstName}</span>
                         <span>{ele.age}</span>

@@ -324,8 +324,7 @@ const AddBill1 = (props) => {
             </tr>
           </thead>
           <tbody>
-
-            {billData.map((data, i) => (
+            {billData?.map((data, i) => (
               <tr key={i}>
                 <td>{i + 1}</td>
                 <td>
